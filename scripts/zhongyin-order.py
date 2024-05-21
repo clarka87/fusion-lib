@@ -91,7 +91,7 @@ args = parser.parse_args()
 
 # 计算日期范围，推迟6-7天并排除周日
 today = datetime.now()
-start_date = today + timedelta(days=5)
+start_date = today + timedelta(days=1)
 end_date = today + timedelta(days=8)
 
 # 计算符合要求的日期范围
